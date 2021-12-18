@@ -35,6 +35,8 @@ go generate ./internal/translations/translations.go
 go mod tidy
 go run ./cmd/www/
 
+go build ./cmd/www/
+
 ```
 
 
