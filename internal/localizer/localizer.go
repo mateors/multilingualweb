@@ -44,7 +44,6 @@ var locales = []Localizer{
 	},
 }
 
-//https://www.alexedwards.net/blog/i18n-managing-translations
 // The Get() function accepts a locale ID and returns the corresponding
 // Localizer for that locale. If the locale ID is not supported then
 // this returns `false` as the second return value.
