@@ -1,0 +1,43 @@
+{
+    "language": "de-DE",
+    "messages": [
+        {
+            "id": "Welcome!",
+            "message": "Welcome!",
+            "translation": "Willkommen!"
+        },
+        {
+            "id": "{TotalBookCount} books available",
+            "message": "{TotalBookCount} books available",
+            "translation": {
+                "select": {
+                    "feature": "plural",
+                    "arg": "TotalBookCount",
+                    "cases": {
+                        "=1": {
+                            "msg": "Ein Buch erhältlich"
+                        },
+                        "other": {
+                            "msg": "{TotalBookCount} Bücher erhältlich"
+                        }
+                    }
+                }
+            },
+            "placeholders": [
+                {
+                    "id": "TotalBookCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "totalBookCount"
+                }
+            ]
+        },
+        {
+            "id": "Launching soon!",
+            "message": "Launching soon!",
+            "translation": "Bald verfügbar!"
+        }
+    ]
+}

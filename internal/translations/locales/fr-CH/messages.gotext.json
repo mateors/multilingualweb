@@ -1,0 +1,43 @@
+{
+    "language": "fr-CH",
+    "messages": [
+        {
+            "id": "Welcome!",
+            "message": "Welcome!",
+            "translation": "Bienvenue !"
+        },
+        {
+            "id": "{TotalBookCount} books available",
+            "message": "{TotalBookCount} books available",
+            "translation": {
+                "select": {
+                    "feature": "plural",
+                    "arg": "TotalBookCount",
+                    "cases": {
+                        "=1": {
+                            "msg": "Un livre disponible"
+                        },
+                        "other": {
+                            "msg": "{TotalBookCount} livres disponibles"
+                        }
+                    }
+                }
+            },
+            "placeholders": [
+                {
+                    "id": "TotalBookCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "totalBookCount"
+                }
+            ]
+        },
+        {
+            "id": "Launching soon!",
+            "message": "Launching soon!",
+            "translation": "Bientôt disponible !"
+        }
+    ]
+}

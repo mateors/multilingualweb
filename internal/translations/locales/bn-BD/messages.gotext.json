@@ -1,0 +1,30 @@
+{
+    "language": "bn-BD",
+    "messages": [
+        {
+            "id": "Welcome!",
+            "message": "Welcome!",
+            "translation": "স্বাগতম"
+        },
+        {
+            "id": "{TotalBookCount} books available",
+            "message": "{TotalBookCount} books available",
+            "translation": "{TotalBookCount} টি বই আছে",
+            "placeholders": [
+                {
+                    "id": "TotalBookCount",
+                    "string": "%[1]d",
+                    "type": "int",
+                    "underlyingType": "int",
+                    "argNum": 1,
+                    "expr": "totalBookCount"
+                }
+            ]
+        },
+        {
+            "id": "Launching soon!",
+            "message": "Launching soon!",
+            "translation": "শীঘ্রই চালু হচ্ছে!"
+        }
+    ]
+}
